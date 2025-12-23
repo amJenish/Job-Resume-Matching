@@ -85,7 +85,6 @@ Extracted domain-specific features using spaCy and regex:
   - The combined feature set (embeddings + semantic features) consistently outperformed either feature type alone.
   - MLP achieved the highest accuracy (87%), suggesting neural architectures are particularly suited for this high-dimensional, embedding-rich feature space.
   - Adapting the SentenceTransformer on domain data improved downstream classification performance by approximately 4% absolute accuracy.
-  - Implementing `class_weight='balanced'` was crucial given the approximately 50-50 distribution between "Fit" and "No Fit" classes.
   - Handcrafted features (skill overlap, experience matching) provided complementary information to embeddings, particularly for edge cases.
 
 ## Limitations  
